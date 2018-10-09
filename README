@@ -1,0 +1,11 @@
+#FACEBOOK ADS for Developers 
+## How to deploy Conversion Tracking for Google Tag Manager v.102018
+
+### Conversion Tracking
+You can use the Facebook pixel to track your website visitors' actions. This is called conversion tracking. Tracked conversions appear in the Facebook Ads Manager and the Facebook Analytics dashboard, where they can be used to analyze the effectiveness of your conversion funnel and to calculate your return on ad investment. You can also use tracked conversions to define custom audiences for ad optimization and dynamic ad campaigns. Once you have defined custom audiences, we can use them to identify other Facebook users who are likely to convert and target them with your ads.
+
+There are three ways to track conversions with the pixel:
+
+	- standard events, which are visitor actions that we have defined and that you report by calling a pixel function
+	- custom events, which are visitor actions that you have defined and that you report by calling a pixel function
+	- custom conversions, which are visitor actions that are tracked automatically by parsing your website's referrer URLs
