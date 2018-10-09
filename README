@@ -9,3 +9,7 @@ There are three ways to track conversions with the pixel:
 	- standard events, which are visitor actions that we have defined and that you report by calling a pixel function
 	- custom events, which are visitor actions that you have defined and that you report by calling a pixel function
 	- custom conversions, which are visitor actions that are tracked automatically by parsing your website's referrer URLs
+
+Requirements
+The pixel's [base code](#base_code_pixe) must already be installed on every page where you want to track conversions.
+
