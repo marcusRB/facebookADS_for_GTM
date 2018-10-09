@@ -1,5 +1,5 @@
 /* ProductDetails as ViewContent for Google Tag Manager - Update 10.2018 MR//PD 
-Trigger will be: Service webpage or Product webpage
+Trigger: Service webpage or Product webpage page loaded
 Remember: Set Tag Sequencing load before main pageView FBads tag
 */
 
