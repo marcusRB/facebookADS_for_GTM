@@ -1,5 +1,5 @@
 /* ProductList from Categories only for Google Tag Manager - Update 10.2018 MR//PD 
-Trigger will be: Service webpage or Product webpage show products list as Impressions. Extract them from dataLayer
+Trigger: Service webpage or Product webpage show products list as Impressions. Extract them from dataLayer
 Remember: Set Tag Sequencing load before main pageView FBads tag
 */
 
