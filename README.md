@@ -13,7 +13,7 @@ There are three ways to track conversions with the pixel:
 Requirements
 The pixel's [base code](#base_code_pixe) must already be installed on every page where you want to track conversions.
 
-###Standard Events
+### Standard Events
 Standard events are predefined visitor actions that correspond to common, conversion-related activities, such as searching for a product, viewing a product, or purchasing a product. Standard events support parameters, which allow you to include an object containing additional information about an event, such as product IDs, categories, and the number of products purchased.
 
 Standard Events
@@ -165,7 +165,7 @@ For example, let's say you wanted to track visitors who share a promotion in ord
 </pre>
 
 
-###Custom Conversions
+### Custom Conversions
 Each time the pixel loads, it automatically calls fbq('track', 'PageView') to track a PageView standard event. PageView standard events record the referrer URL of the page that triggered the function call. You can use these recorded URLs in the Events Manager to define visitor actions that should be tracked.
 
 For example, let's say that you send visitors who subscribe to your mailing list to a thank you page. You could set up a custom conversion that tracks website visitors who have viewed any page that has /thank-you in its URL. Assuming your thank you page is the only page with /thank-you in its URL, and you've installed the pixel on that page, anyone who views it will be tracked using that custom conversion.
@@ -174,11 +174,11 @@ Once tracked, custom conversions can be used to optimize your ad campaigns, to d
 
 Since custom conversions rely on complete or partial URLs, you should make sure that you can define visitor actions exclusively based on unique strings in your website URLs.
 
-####Creating Custom Conversions
+#### Creating Custom Conversions
 Custom conversions are created entirely within the Events Manager. Refer to our Advertiser Help document to learn how.
 
 
-###Parameters
+### Parameters
 Parameters are optional, JSON-formatted objects that you can include when tracking standard and custom events. They allow you to provide additional information about your website visitors' actions. Once tracked, parameters can be used to further define any custom audiences you create.
 
 To include a parameter object with a standard or custom event, format your parameter data as an object using JSON, then include it as the third function parameter when calling the fbq('track') or fbq('trackCustom') functions.
@@ -212,5 +212,5 @@ For example, let's say you wanted to track a visitor who purchased multiple prod
 Note that if you want to use data included in event parameters when defining custom audiences, key values must not contain any spaces.
 
 
-####Object Properties
+#### Object Properties
 You can include the following predefined object properties with any custom events, and any standard events that support them. Format your parameter object data using JSON.
