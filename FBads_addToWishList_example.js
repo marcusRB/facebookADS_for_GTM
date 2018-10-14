@@ -3,9 +3,12 @@ Trigger: Service webpage or Product webpage when fire Wishlist button or custom 
 Remember: Set Tag Sequencing load before main pageView FBads tag
 */
 
-<!-- Update 28.09.2018 v2 MR//PD 
+/*Update 28.09.2018 v2 MR//PD 
 Product addToWishList from categoryList and detailProduct -
-NOTE: script use DOM scraping, please check last version of your CMS for to get the values, instead doesn't work well or value returned will be null-->
+NOTE: script use DOM scraping, please check last version of your CMS for to get the values, 
+instead doesn\'t work well or value returned will be null
+*/
+
 
 <script>
   fbq('track', 'AddToWishlist', {
